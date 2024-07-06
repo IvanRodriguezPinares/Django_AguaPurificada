@@ -93,3 +93,24 @@ body {
 .leaflet-popup-tip {
     background: black;
 }
+
+
+/*fondo modal */
+
+/* Cambia el color de fondo del modal */
+.modal-content {
+    background-color: #003366; /* Puedes cambiar este color por el que prefieras */
+    color: #ffffff; /* Cambia el color del texto para que sea visible en el nuevo fondo */
+}
+
+/* Cambia el color de fondo del header del modal */
+.modal-header {
+    background-color: #003366; /* Puedes cambiar este color por el que prefieras */
+    border-bottom: 1px solid #6c757d; /* Opcional: cambiar el color del borde inferior */
+}
+
+/* Cambia el color de fondo del footer del modal */
+.modal-footer {
+    background-color: #003366; /* Puedes cambiar este color por el que prefieras */
+    border-top: 1px solid #6c757d; /* Opcional: cambiar el color del borde superior */
+}
