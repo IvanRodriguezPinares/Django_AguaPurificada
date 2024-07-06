@@ -1,6 +1,11 @@
 /* Cambia el color del texto a blanco */
-h1, h2, h5, p, .navbar-brand, .nav-link, .btn {
+h1, h2, h5, p, .navbar-brand, .nav-link, .btn, label {
     color: #ffffff;
+}
+
+/* Cambia el color del texto a blanco */
+form label,td {
+    color: #ffffff !important;
 }
 
 .nav-link {
