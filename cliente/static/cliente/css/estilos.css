@@ -1,0 +1,116 @@
+/* Cambia el color del texto a blanco */
+h1, h2, h5, p, .navbar-brand, .nav-link, .btn, label {
+    color: #ffffff;
+}
+
+/* Cambia el color del texto a blanco */
+form label,td {
+    color: #ffffff !important;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+/* Cambia el color del texto de card */
+.card-title, .card-text {
+    color: #ffffff;
+}
+
+/* Estilos para el botón de registro */
+.btn-custom {
+    background-color: #ffffff; /* blanco */
+    border-color: #0423a0; /* azul */
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #005b96; /* Azul */
+}
+
+.navbar-expand-lg, .navbar-dark, .bg-dark {
+    background-color: #003678; /* Azul Oscuro */
+}
+
+/* Estilos para los enlaces del carrusel */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #000000;
+}
+.carousel-item img {
+    width: 350px; /* Ancho deseado */
+    height: 350px; /* Alto deseado */
+}
+
+/* Estilos para los botones de compra */
+.btn-primary {
+    background-color: #00a8cc; /* Celeste */
+    border-color: #00a8cc; /* Celeste */
+}
+
+.card {
+    width: 350px; /* Ancho deseado */
+    height: 350px; /* Alto deseado */
+}
+
+h1, h2 {
+    text-align: center; /* Centra el título */
+}
+
+p {
+    text-align: center; /* Centra los párrafos */
+}
+
+li {
+    color: #ffffff;
+}
+
+/*para jquery */
+
+body {
+    overflow: auto; /* Permitir scroll */
+}
+
+.bubble {
+    background-color: rgba(0, 150, 255, 0.2); /* Aumentamos la transparencia */
+    border-radius: 50%;
+    position: absolute;
+}
+
+/* fondo dinamico */
+body {
+    transition: background-color 1s;
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+}
+.leaflet-popup-content-wrapper {
+    background: black;
+    color: white;
+}
+.leaflet-popup-tip {
+    background: black;
+}
+
+
+/*fondo modal */
+
+/* Cambia el color de fondo del modal */
+.modal-content {
+    background-color: #003366; /* Puedes cambiar este color por el que prefieras */
+    color: #ffffff; /* Cambia el color del texto para que sea visible en el nuevo fondo */
+}
+
+/* Cambia el color de fondo del header del modal */
+.modal-header {
+    background-color: #003366; /* Puedes cambiar este color por el que prefieras */
+    border-bottom: 1px solid #6c757d; /* Opcional: cambiar el color del borde inferior */
+}
+
+/* Cambia el color de fondo del footer del modal */
+.modal-footer {
+    background-color: #003366; /* Puedes cambiar este color por el que prefieras */
+    border-top: 1px solid #6c757d; /* Opcional: cambiar el color del borde superior */
+}
