@@ -30,6 +30,14 @@ def clientes_add(request):
 
     return render(request, 'cliente/clientes_add.html')
 
+def clientes_del(request, pk):
+    cliente = get_object_or_404(Cliente, pk=pk)
+    if request.method == "POST":
+        cliente.delete()
+        return redirect('crud')
+    return render(request, 'cliente/clientes_del.html', {'cliente': cliente})
+
+
 def nosotros(request):
     return render(request, 'cliente/nosotros.html')
 

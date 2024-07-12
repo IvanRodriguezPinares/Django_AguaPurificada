@@ -1,11 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        {% load static %}
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Agregar Cliente</title>
-    </head>
+<!doctype html>
+<html lang="es">
+<head>
+    {% load static %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Agregar cliente</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'cliente/css/estilos.css' %}">
+</head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="btn btn-primary" href="{% url 'recarga' %}">RECARGA DE AGUA</a>
