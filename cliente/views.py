@@ -9,9 +9,6 @@ def crud(request):
     context = {'clientes': clientes}
     return render(request, 'cliente/clientes_list.html', context)
 
-from django.shortcuts import render, redirect
-from .models import Cliente
-
 def clientes_add(request):
     if request.method == "POST":
         nombre = request.POST.get('nombre_completo', '')
@@ -32,12 +29,6 @@ def clientes_add(request):
         return redirect('crud')
 
     return render(request, 'cliente/clientes_add.html')
-
-
-def clientes_del(request, pk):
-    cliente = Cliente.objects.get(id=pk)
-    cliente.delete()
-    return redirect('crud')
 
 def nosotros(request):
     return render(request, 'cliente/nosotros.html')
